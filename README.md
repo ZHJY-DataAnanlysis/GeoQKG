@@ -21,7 +21,7 @@ To construct a comprehensive question knowledge graph, please follow the steps b
     ```bash
     python question_gen.py -j -r <path_to_reports_folder>
     ```
-4. Generate the full version of question answer pairs
+4. Generate the full version of question-answer pairs
     ```bash
     python question_gen.py -q
     ```
@@ -51,4 +51,8 @@ To adapt question representations utilizing knowledge graphs, we devised four in
     Enter the 'GeoQAnswer' directory
     ```bash
     cd GeoQAnswer
+    ```
+    To have an initial trial of our toolkit, you can use the provided cmd script:
+    ```bash
+    python run_mwptoolkit.py --model=GraphtoTree --dataset=geo3k --task_type=single_equation --equation_fix=prefix --k_fold=5 --test_step=5 --gpu_id=0
     ```
