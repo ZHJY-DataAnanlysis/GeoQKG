@@ -7,7 +7,7 @@ The Geometry3K  dataset is now available on [Geometry3K](https://lupantech.githu
 
 The GeoQA dataset is now available on [GeoQA](https://drive.google.com/drive/folders/1fiLTJUq7EPiZHs6AxundNfNEDLw4gtP5).
 
-## Constructing question knowledge graph
+## Construct question knowledge graph
 To construct a comprehensive question knowledge graph, please follow the steps below:
 1. Enter the 'code' directory
     ```bash
@@ -29,4 +29,22 @@ To construct a comprehensive question knowledge graph, please follow the steps b
     Alternatively, you can execute step 3 and step 4 simultaneously by running:
     ```bash
     python question_gen.py -j -q
+    ```
+## Design adaptive tasks
+To adapt question representations utilizing knowledge graphs, we devised four independent downstream tasks: similarity prediction, difficulty evaluation, image-text retrieval, and geometric question answering.
+1. Question similarity task:
+ ```bash
+    cd Similar
+    ```
+2. Question difficulty task:
+```bash
+    cd Difficult
+    ```
+3. Image-text retrieval:
+```bash
+    cd Image and text retrieval
+    ```
+4. Geometric question answering：
+```bash
+    cd GeoQAnswer
     ```
