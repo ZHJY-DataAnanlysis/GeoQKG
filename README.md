@@ -7,8 +7,8 @@ The Geometry3K  dataset is now available on [Geometry3K](https://lupantech.githu
 
 The GeoQA dataset is now available on [GeoQA](https://drive.google.com/drive/folders/1fiLTJUq7EPiZHs6AxundNfNEDLw4gtP5).
 
-## How to use
-To generate a new Medical-Diff-VQA dataset(due to the randomness, the generated dataset will not be 100% the same as our provided one), please follow the steps below:
+## Constructing question knowledge graph
+To construct a comprehensive question knowledge graph, please follow the steps below:
 1. Enter the 'code' directory
     ```bash
     cd code
