@@ -33,18 +33,22 @@ To construct a comprehensive question knowledge graph, please follow the steps b
 ## Design adaptive tasks
 To adapt question representations utilizing knowledge graphs, we devised four independent downstream tasks: similarity prediction, difficulty evaluation, image-text retrieval, and geometric question answering.
 1. Question similarity task:
-     ```bash
+    Enter the 'Similar' directory
+   ```bash
     cd Similar
     ```
-2. Question difficulty task:
+3. Question difficulty task:
+    Enter the 'Difficult' directory
     ```bash
     cd Difficult
     ```
-3. Image-text retrieval:
-    ```bash
+5. Image-text retrieval:
+    Enter the 'Image and text retrieval' directory
+   ```bash
     cd Image and text retrieval
     ```
-4. Geometric question answering：
+7. Geometric question answering：
+    Enter the 'GeoQAnswer' directory
     ```bash
     cd GeoQAnswer
     ```
